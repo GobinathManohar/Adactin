@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src\\main\\resources\\"},tags= {"@adactin"},glue= {"org.stepdef"},dryRun=false,monochrome=true,plugin= {"pretty","html:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.html","json:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.json","junit:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.xml"})
+@CucumberOptions(features= {"src\\test\\resources\\"},tags= {"@adactin"},glue= {"org.stepdef"},dryRun=false,monochrome=true,plugin= {"pretty","html:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.html","json:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.json","junit:C:\\Users\\DELL\\eclipse-workspace\\selenium\\PracticeCucumber\\target\\adactin.xml"})
 public class TestRunner  {
 
 	@AfterClass
